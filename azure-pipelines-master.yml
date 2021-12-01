@@ -13,14 +13,14 @@ trigger:
       - Test2/*
       - README.md
 
-pr:
-  branches:
-    include:
-    - master
-  paths:
-    exclude:
-      - Test2/*
-      - README.md
+#pr:
+#  branches:
+#    include:
+#    - master
+#  paths:
+#    exclude:
+#      - Test2/*
+#      - README.md
 
 pool:
   vmImage: 'windows-latest'
