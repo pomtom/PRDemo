@@ -18,6 +18,7 @@ pr:
     - master
   paths:
     exclude:
+      - Test2/*
       - README.md
 
 pool:
