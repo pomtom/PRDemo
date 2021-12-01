@@ -10,6 +10,7 @@ trigger:
     - master
   paths:
     exclude:
+      - Test2/*
       - README.md
 
 pr:
