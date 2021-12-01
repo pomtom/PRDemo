@@ -36,7 +36,6 @@ namespace PRDemo
             {
                 app.UseExceptionHandler("/Error");
             }
-
             app.UseStaticFiles();
 
             app.UseRouting();
